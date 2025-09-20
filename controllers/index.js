@@ -1,5 +1,9 @@
-const getName = (req, res) => {
-  res.send('Marcia Vallejos');
+const awesomeFunction = (req, res, next) => {
+  res.json('Marcia Vallejos');
 };
 
-module.exports = { getName };
+const returnAnotherpPerson = (req, res, next) => {
+  res.json('Mon Coeur');
+}
+
+module.exports = { awesomeFunction, returnAnotherpPerson };

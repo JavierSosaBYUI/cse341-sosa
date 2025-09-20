@@ -1,7 +1,8 @@
 const routes = require('express').Router();
 
-const baseController = require('../controllers');
+const myController = require('../controllers');
 
-routes.get('/', baseController.getName);
+routes.get('/', myController.awesomeFunction);
+routes.get('/awesome', myController.returnAnotherpPerson);
 
 module.exports = routes;

@@ -1,5 +1,7 @@
 GET http://localhost:3000 HTTP/1.1
 
 ###
-
 GET http://localhost:3000/awesome HTTP/1.1
+
+###
+GET https://cse341-sosa-h1eq.onrender.com/ HTTP/1.1
