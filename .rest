@@ -3,7 +3,7 @@
 GET http://localhost:3000/contacts HTTP/1.1
 
 ###
-GET http://localhost:3000/contacts/62b99db4cfa9a34dcd7885b9 HTTP/1.1
+GET http://localhost:3000/contacts/60b99db4cfa9a34dcd7885b7 HTTP/1.1
 
 ###
 GET http://localhost:3000/contacts/61b99db4cfa9a34dcd7885b8 HTTP/1.1
@@ -13,7 +13,13 @@ GET http://localhost:3000/contacts/62b99db4cfa9a34dcd7885b9 HTTP/1.1
 
 // PRODUCTION Deploy
 ###  
-GET https://cse341-sosa-h1eq.onrender.com HTTP/1.1
+GET https://cse341-sosa-h1eq.onrender.com/contacts HTTP/1.1
+
+###  
+GET https://cse341-sosa-h1eq.onrender.com/contacts/60b99db4cfa9a34dcd7885b7 HTTP/1.1
+
+###  
+GET https://cse341-sosa-h1eq.onrender.com/contacts/61b99db4cfa9a34dcd7885b8 HTTP/1.1
 
 ###  
 GET https://cse341-sosa-h1eq.onrender.com/contacts/62b99db4cfa9a34dcd7885b9 HTTP/1.1
