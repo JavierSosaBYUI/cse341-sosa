@@ -1,0 +1,33 @@
+[   
+{
+  "_id": {
+    "$oid": "60b99db4cfa9a34dcd7885b7"
+  },
+    "firstName": "Marcia",
+    "lastName": "Vallejos",
+    "email": "marcia.vallejos@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "10/09/1989"
+   },
+  {
+  "_id": {
+    "$oid": "61b99db4cfa9a34dcd7885b8"
+  },
+    "firstName": "Javier",
+    "lastName": "Sosa",
+    "email": "javier.sosa@gmail.com",
+    "favoriteColor": "Gray",
+    "birthday": "05/19/1991"
+   },
+   {
+  "_id": {
+    "$oid": "62b99db4cfa9a34dcd7885b9"
+  },
+    "firstName": "Etienne",
+    "lastName": "Sosa",
+    "email": "etienne.sosa@gmail.com",
+    "favoriteColor": "Red",
+    "birthday": "01/18/2025"
+   }
+]
+ 
