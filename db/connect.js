@@ -5,18 +5,26 @@ let _db;
 
 const initDb = (callback) => {
   if (_db) {
-    console.log('Db is already initialized!');
-    return callback(null, _db);
-    console.log("Mongo URL:", process.env.MONGO_URL);
-  }
-  MongoClient.connect(process.env.MONGODB_URI)
-    .then((client) => {
-      _db = client;
-      callback(null, _db);
-    })
-    .catch((err) => {
-      callback(err);
-    });
+
+  console.log('Db is already initialized!');
+
+  return callback(null, _db);
+
+}
+ 
+console.log("Mongo URI:", process.env.MONGODB_URI);
+
+MongoClient.connect(process.env.MONGODB_URI)
+
+  .then((client) => {
+
+    _db = client;
+
+    callback(null, _db);
+
+  })
+
+  .catch((err) => callback(err));
 };
 
 const getDb = () => {
