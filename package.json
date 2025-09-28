@@ -17,7 +17,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "start-prod": "node server.js"
+    "start-prod": "node server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "dependencies": {
     "body-parser": "^2.2.0",
@@ -26,6 +29,10 @@
     "mongodb": "^6.20.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
   }
 }
