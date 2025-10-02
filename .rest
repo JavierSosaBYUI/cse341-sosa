@@ -20,7 +20,7 @@ content-type: application/json
 
 
 ### PUT contact 
-PUT http://localhost:3000/contacts/68d8bae9d27971fed1c2002f HTTP/1.1
+PUT http://localhost:3000/contacts/68d99b617b16b24eff22663a HTTP/1.1
 content-type: application/json
 
 {
@@ -32,7 +32,7 @@ content-type: application/json
  }
 
 ### DELETE contact
-DELETE http://localhost:3000/contacts/68d8c87e0b90d40ef25832cc HTTP/1.1
+DELETE http://localhost:3000/contacts/68d99b617b16b24eff22663a HTTP/1.1
 
 
 
@@ -57,7 +57,7 @@ content-type: application/json
  }
 
 ### PUT contact 
-PUT https://cse341-sosa-1.onrender.com/contacts/68d8c9320b90d40ef25832cd HTTP/1.1  
+PUT https://cse341-sosa-1.onrender.com/contacts/68d99bd17f396cb553293da8 HTTP/1.1  
 content-type: application/json
 
 {
@@ -69,4 +69,4 @@ content-type: application/json
  }
 
 ### DELETE contact 
-DELETE https://cse341-sosa-1.onrender.com/contacts/68d8bae9d27971fed1c2002f HTTP/1.1
+DELETE https://cse341-sosa-1.onrender.com/contacts/68d99bd17f396cb553293da8 HTTP/1.1
